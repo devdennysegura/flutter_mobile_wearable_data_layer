@@ -1,0 +1,21 @@
+name: mobile_wearable_data_layer
+description: A new flutter plugin project.
+version: 0.0.5
+author: Denny Segura <dev.dennysegura@gmail.com>
+homepage: https://github.com/devdennysegura/flutter_mobile_wearable_data_layer.git
+
+environment:
+  sdk: ">=2.1.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  plugin:
+    androidPackage: io.flutter.plugins.mobile_wearable_data_layer
+    pluginClass: MobileWearableDataLayerPlugin
